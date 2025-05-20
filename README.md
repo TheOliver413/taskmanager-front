@@ -1,12 +1,42 @@
-# React + Vite
+# Task Manager - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descripción
+Task Manager es una plataforma para la gestión de tareas con asignaciones, historial de cambios y autenticación segura. Este repositorio contiene el código fuente del frontend desarrollado en React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 1️⃣ Instalación y Configuración
 
-## Expanding the ESLint configuration
+### ✅ Requisitos previos
+- Node.js
+- npm o yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ⚙️ Instalación
+```bash
+cd task-manager/frontend
+npm install
+```
+
+### 🚀 Ejecutar en desarrollo
+```bash
+npm start
+```
+
+---
+
+## 2️⃣ Decisiones Técnicas y Tecnologías Utilizadas
+
+### 🔹 Frontend
+- **React** con **React Router v7** – Navegación moderna.
+- **Material UI** – Estilos modernos y accesibles.
+- **Axios** – Manejo de peticiones HTTP.
+- **Context API** – Gestión global de estado.
+- **Yup** – Validación de formularios.
+
+---
+
+## 📌 Contacto y Contribuciones
+
+Si deseas colaborar, reportar errores o mejorar funcionalidades, abre un issue o envía un pull request en el repositorio.
+
+---
